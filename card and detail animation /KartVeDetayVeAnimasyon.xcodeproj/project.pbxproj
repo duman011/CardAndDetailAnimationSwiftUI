@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		839CB7C92AB9762D0016A777 /* KartVeDetayVeAnimasyonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839CB7C82AB9762D0016A777 /* KartVeDetayVeAnimasyonApp.swift */; };
+		839CB7CB2AB9762D0016A777 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839CB7CA2AB9762D0016A777 /* ContentView.swift */; };
+		839CB7CD2AB9762E0016A777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839CB7CC2AB9762E0016A777 /* Assets.xcassets */; };
+		839CB7D02AB9762E0016A777 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839CB7CF2AB9762E0016A777 /* Preview Assets.xcassets */; };
+		839CB7D72AB9771B0016A777 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839CB7D62AB9771B0016A777 /* Home.swift */; };
+		839CB7D92AB977600016A777 /* Araclar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839CB7D82AB977600016A777 /* Araclar.swift */; };
+		839CB7DD2AB97FBC0016A777 /* Kart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839CB7DC2AB97FBC0016A777 /* Kart.swift */; };
+		839CB7DF2AB99C630016A777 /* Detay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839CB7DE2AB99C630016A777 /* Detay.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		839CB7C52AB9762D0016A777 /* KartVeDetayVeAnimasyon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KartVeDetayVeAnimasyon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		839CB7C82AB9762D0016A777 /* KartVeDetayVeAnimasyonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartVeDetayVeAnimasyonApp.swift; sourceTree = "<group>"; };
+		839CB7CA2AB9762D0016A777 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		839CB7CC2AB9762E0016A777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		839CB7CF2AB9762E0016A777 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		839CB7D62AB9771B0016A777 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		839CB7D82AB977600016A777 /* Araclar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Araclar.swift; sourceTree = "<group>"; };
+		839CB7DC2AB97FBC0016A777 /* Kart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kart.swift; sourceTree = "<group>"; };
+		839CB7DE2AB99C630016A777 /* Detay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detay.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		839CB7C22AB9762D0016A777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		839CB7BC2AB9762D0016A777 = {
+			isa = PBXGroup;
+			children = (
+				839CB7C72AB9762D0016A777 /* KartVeDetayVeAnimasyon */,
+				839CB7C62AB9762D0016A777 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		839CB7C62AB9762D0016A777 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839CB7C52AB9762D0016A777 /* KartVeDetayVeAnimasyon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		839CB7C72AB9762D0016A777 /* KartVeDetayVeAnimasyon */ = {
+			isa = PBXGroup;
+			children = (
+				839CB7C82AB9762D0016A777 /* KartVeDetayVeAnimasyonApp.swift */,
+				839CB7CA2AB9762D0016A777 /* ContentView.swift */,
+				839CB7CC2AB9762E0016A777 /* Assets.xcassets */,
+				839CB7CE2AB9762E0016A777 /* Preview Content */,
+				839CB7D62AB9771B0016A777 /* Home.swift */,
+				839CB7D82AB977600016A777 /* Araclar.swift */,
+				839CB7DC2AB97FBC0016A777 /* Kart.swift */,
+				839CB7DE2AB99C630016A777 /* Detay.swift */,
+			);
+			path = KartVeDetayVeAnimasyon;
+			sourceTree = "<group>";
+		};
+		839CB7CE2AB9762E0016A777 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				839CB7CF2AB9762E0016A777 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		839CB7C42AB9762D0016A777 /* KartVeDetayVeAnimasyon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839CB7D32AB9762E0016A777 /* Build configuration list for PBXNativeTarget "KartVeDetayVeAnimasyon" */;
+			buildPhases = (
+				839CB7C12AB9762D0016A777 /* Sources */,
+				839CB7C22AB9762D0016A777 /* Frameworks */,
+				839CB7C32AB9762D0016A777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KartVeDetayVeAnimasyon;
+			productName = KartVeDetayVeAnimasyon;
+			productReference = 839CB7C52AB9762D0016A777 /* KartVeDetayVeAnimasyon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839CB7BD2AB9762D0016A777 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					839CB7C42AB9762D0016A777 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 839CB7C02AB9762D0016A777 /* Build configuration list for PBXProject "KartVeDetayVeAnimasyon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 839CB7BC2AB9762D0016A777;
+			productRefGroup = 839CB7C62AB9762D0016A777 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839CB7C42AB9762D0016A777 /* KartVeDetayVeAnimasyon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		839CB7C32AB9762D0016A777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839CB7D02AB9762E0016A777 /* Preview Assets.xcassets in Resources */,
+				839CB7CD2AB9762E0016A777 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		839CB7C12AB9762D0016A777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839CB7DD2AB97FBC0016A777 /* Kart.swift in Sources */,
+				839CB7CB2AB9762D0016A777 /* ContentView.swift in Sources */,
+				839CB7D72AB9771B0016A777 /* Home.swift in Sources */,
+				839CB7D92AB977600016A777 /* Araclar.swift in Sources */,
+				839CB7C92AB9762D0016A777 /* KartVeDetayVeAnimasyonApp.swift in Sources */,
+				839CB7DF2AB99C630016A777 /* Detay.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		839CB7D12AB9762E0016A777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		839CB7D22AB9762E0016A777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		839CB7D42AB9762E0016A777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KartVeDetayVeAnimasyon/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.info.KartVeDetayVeAnimasyon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		839CB7D52AB9762E0016A777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KartVeDetayVeAnimasyon/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.info.KartVeDetayVeAnimasyon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839CB7C02AB9762D0016A777 /* Build configuration list for PBXProject "KartVeDetayVeAnimasyon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839CB7D12AB9762E0016A777 /* Debug */,
+				839CB7D22AB9762E0016A777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839CB7D32AB9762E0016A777 /* Build configuration list for PBXNativeTarget "KartVeDetayVeAnimasyon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839CB7D42AB9762E0016A777 /* Debug */,
+				839CB7D52AB9762E0016A777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 839CB7BD2AB9762D0016A777 /* Project object */;
+}
